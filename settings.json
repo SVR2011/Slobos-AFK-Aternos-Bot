@@ -27,9 +27,9 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 0,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
@@ -42,11 +42,11 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false,
+      "radius": 0,
+      "speed": 0
     },
     "look-around": {
       "enabled": true,
